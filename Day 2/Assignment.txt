@@ -1,0 +1,7 @@
+//Assignments
+/* 1)Try all the loops by yourself with some use case of your own
+ * 2)Print all the palindrome numbers between 100 and 999
+ * 3)Find all the odd numbers between 100 and 199
+ * 4)Find the sum of all even numbers between 1 and 100, also find sum of all odd numbers between 1 and 100 and print the results and
+ * print which is largest among them(between evensum and oddsum)
+ */
