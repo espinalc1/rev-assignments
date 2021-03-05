@@ -1,0 +1,20 @@
+//Assignment
+//Create Employee class with id,name,age,email
+//and Project(projectid,projectname,clientname)
+//and present and permanent Address(aid,streetname,city,state,zip)
+
+/Assignment Wrapper classes -> Try the same above with Float, Double and Long classes
+
+* Assignment String -
+ * 1)Take a string input from user and find the count of vowels(aeiouAEIOU) in it.
+ * 2)Take a string input and print true if all vowels are present in it else print false.  aHedafioullooo - true aHedafiollooo - false
+ * 3)Take a string input and print the characters at prime index to uppercase.
+ */
+
+//Assignment Regex - 1)Write validation for passport number, SSN number, DL and any other ID if you have.
+
+//Assignments - String,StringBuffer,StringBuilder
+//1)Take a sentence as input and convert all the last chars to upper case of every word
+//2)Take a sentence as input and for the word with length odd convert the middle character to uppercase and for the word length even convert the
+// first character to uppercase.
+//3)Take a sentence as input and print the word with maximum letters and also print the word with minimum letters.

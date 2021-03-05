@@ -1,0 +1,8 @@
+Assignment Exception
+1)Try to recreate the same
+2)Create a BusinessException(checked) and use it for handling for InvalidPassportNumber
+3)Create a BusinessException(unchecked) and use it for handling for invalid DL number.
+
+Assignment Queue - > Understand Queue. Find difference between LinkedList Vs PriorityQueue, Perform CRUD operations on Queue
+
+https://www.youtube.com/watch?v=c3RVW3KGIIE&amp%3Bt=25s

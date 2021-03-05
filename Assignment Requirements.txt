@@ -1,0 +1,9 @@
+All bundles of assignments are to be separate projects and each assignment in the bundle is a separate class
+Example: 
+Java Project: Loop Assignments
+-Package: any name
+--Class: assignment 1
+--Class: Assignment 2
+--etc.
+
+Java Project: Array Assignments
