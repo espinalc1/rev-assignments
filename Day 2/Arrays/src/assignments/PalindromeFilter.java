@@ -16,7 +16,7 @@ public class PalindromeFilter {
 	public static int[] findPalindromes(Scanner sc) {
 		int[] userArray = CrudCalcs.createArray(sc);
 		int[] palindromes = new int[0];
-		for(int i = 0; i < userArray.length; i++) {
+		for (int i = 0; i < userArray.length; i++) {
 			if (isPalindrome(userArray[i])) {
 				palindromes = CrudCalcs.push(userArray[i], palindromes);
 			}
@@ -52,16 +52,16 @@ public class PalindromeFilter {
 			// thisPow = (int) Math.pow(10.0, (dig));
 
 			dig = (int) Math.floor(digits / 2.0);
-			int powA = (int) Math.pow(10.0, dig+1);
+			int powA = (int) Math.pow(10.0, dig + 1);
 			int powB = (int) Math.pow(10.0, dig);
 			// int midHalf = num % thisPow;
-			//secHalf = midHalf % (thisPow / 10);
-			
-			firstHalf = (num - (num % powA))/(powA);
+			// secHalf = midHalf % (thisPow / 10);
+
+			firstHalf = (num - (num % powA)) / (powA);
 			// System.out.println(thisPow + "\n" + firstHalf + "\n" + secHalf);
 			secHalf = num % (powB);
 		}
-		
+
 		// reverse second half
 		int rev = 0;
 		int r = secHalf;
