@@ -1,5 +1,7 @@
 package Wrappers;
 
+import java.util.Arrays;
+
 /*Assignment Wrapper classes -> 
  Try the same above with Float, 
 						 Double and 
@@ -70,5 +72,68 @@ public class ChrisLongWrapperDemo {
 		//System.out.println("Is el2 a Long object?" + (x instanceof Long));
 		// the point is that calculations can still be done between primitives
 		// and their wrapper values....Java will automatically convert
+		
+		
+		
+		
+		
+		
+		// convert the last character to uppercase
+		
+		
+		String s = "today is a wonderful day";
+		String[] stringArray = s.split(" ");
+		System.out.println(Arrays.toString(stringArray));
+		
+		for (int i = 0; i < stringArray.length; i++) {
+			StringBuilder sb = new StringBuilder();
+			String word = stringArray[i];
+			String sub1 = word.substring(0, word.length()-1);
+			// get last letter
+			String sub2 = word.substring(word.length()-1, word.length());
+			String sub2cap = sub2.toUpperCase();
+			//System.out.println(sub2cap);
+			sb.append(sub1).append(sub2cap);
+			System.out.println(sb);
+		}
+		
+		//String x = "Manic Monday";
+		//			0123456789
+		//					  10
+		//					   11
+		// x.length() = 12;
+		// last character of string x is in x.length()-1
+		// x.substring(0, x.length()-1)
+		
+		
+		
+		
+		//			0123     s.length() = 4
+		// substring1 = wor;  substring2 = D
+		/*
+		String sub1 = s.substring(0, 3);
+		System.out.println(sub1);
+		
+		String sub2 = s.substring(s.length()-1, s.length());
+		System.out.println(sub2);
+		sub2 = sub2.toUpperCase();
+		System.out.println(sub2);
+		sb.append(sub1).append(sub2);
+		System.out.println(sb);
+		*/
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 	}
 }
