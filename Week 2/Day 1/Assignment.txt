@@ -1,0 +1,9 @@
+1)What is RDBMS?
+2)Why a developer should learn SQL?
+3)What is Normalization?
+4)Types of Normalization( till 3NF(third normal form))
+5)ACID properties
+6)Isolation levels
+7)What is postgresSQL? Data types in Postgressql.
+8)What is Integrity Constraints?
+9)Start practicising writing some basic Select statements from hackerrank.com or sqlzoo.net or w3schools.com

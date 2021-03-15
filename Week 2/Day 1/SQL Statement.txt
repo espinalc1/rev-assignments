@@ -1,0 +1,65 @@
+1)What is RDBMS?
+
+	It is an acronym for relational database management system, which is quickly becoming a standard for the storing, manipulation, and retrieval of large, scalable systems.
+
+	It organizes it's data by tables, or relations, rows (specific data points), and columns (the fields used to describe each data member encapsulated by an element).
+
+2)Why a developer should learn SQL?
+
+	A developer should learn SQL because it is widely used, even to some extent in NoSQL databases. Lastly, most enterprises are using large amounts of data, so it's important to know how to query large databases.
+
+3)What is Normalization?
+
+	Normalization is a set of standards applied to relational databases to reduce redundancy through table decomposition and foreign keys.	
+
+4)Types of Normalization( till 3NF(third normal form))
+
+	1NF = define a column - primarykey that will identify a database record. It should be unique, non-null, and usable throughout the database without modification, and be available before a new record is saved.
+	2NF = decompose a table by identifying non-unique elements that could be records in another table. Afterwards, use a foreign key to relate the child table to the parent table. The foreign key should be the parent tables' primary key.
+	3NF = all dependencies between columns in the parent table should be removed. These are call transitive dependencies.
+
+5)ACID properties
+	
+	A - Atomicity - Data should be sent to a database or not, but data can't be partially transferred. This is because allowing partial transfers can lead to greater issues than aborting or cancelling a transaction.
+	C - Consistency - Data that is being transferred should adhere to the rules governing how data is organized, labeled, and typed. It maintains that primary and foreign keys remain useful, and that errors don't happen in the future from data that doesn't match predetermined conventions.
+	I - Isolation - Data that's transferred to the database concurrently, will produce the sames results as data that is transferred sequentially. In other words, concurrent or sequential transactions shouldn't influence the state of the database.
+	D - Durability - Once data is committed to a database, it ought to be stored, even in the event of a power failure. This requires the use of a particular type of memory called non-volatile memory - meaning even after volatile circumstances, data that was committed before a volatile circumstance, will remain committed after the passing of some volatile activity.
+
+6)Isolation levels
+	
+	S - Serializable - Concurrent transaction operations have the same results as serial execution of those operations. Serial means that a transaction reaches completion before the next transaction is processed.
+	R - Repeatable Reads - There aren't range locks and phantom reads can happen. A specific column might be written to at the same time causing mixed transactions - phantom reading.
+	R - Read committed - Guarantees that when the data is read it is also committed, however, there's no guarantee that the data will be the same if the same data is read again. This is because range locks aren't managed.
+	R - Read uncommitted - Allows dirty reads: which means that users can see not-yet-committed changes
+
+7)What is postgreSQL? Data types in Postgressql.
+
+	PostgreSQL - a specific implementation of SQL
+
+	- Boolean
+	- arbitrary precision numbers
+	- Character (text, varchar, char)
+	- Binary
+	- Date/Time
+	- Money
+	- Enum
+	- Bit strings
+	- text search type
+	- composite
+	- HStore
+	- Arrays - up to 1GB
+	- Geometric primitives
+	- IPv4 and IPv6 addresses
+	- CIDR blocks
+	- XML
+	- UUID
+	- JSON
+	- JSONB
+
+8)What is Integrity Constraints?
+
+	Integrity constraints ensure that when the authorized users modify the database they do not disturb the data consistency. Integrity constraints are introduced while designing the database schema. The constraints are specified within the SQL DDL command like 'create table' and 'alter table' command.
+
+9)Start practicising writing some basic Select statements from hackerrank.com or sqlzoo.net or w3schools.com
+
+	
